@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> 
   </head>
   <body>
     
@@ -58,19 +60,19 @@
             </li>
           </div>
         </div>
-    
+    </div>
       </nav>
     
 </header>
 
 <!-- FIM DA NAVBAR -->
 
-<main>
+<main >
     <!-- COMEÇO DO CARROSEL -->
-     <section>
-
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner" style="height: 30em; width: 100em;margin:-1em; margin-top: -2em;">
+     <section >
+      
+        <div id="carouselExampleAutoplaying " class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" style="height: 25em; width: 100em;margin:-1em; margin-top: 0em;">
               <div class="carousel-item active">
                 <img src="images/17054.jpg" class="d-block w-100" alt="...">
               </div>
@@ -90,6 +92,7 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+          </div>
     </section>
 <!-- FIM DO CARROSEL -->
 
@@ -97,8 +100,8 @@
 <section>
     
   <div class="container-fluid">
-      <div class="m-3">
-    <h2>Nossos cursos</h2>
+    <div class="m-3">
+  <h2>Nossos cursos</h2>
       </div>
      <div class="container">
      <div class="row">
@@ -106,9 +109,12 @@
         <div class="card" style="width: 18rem;">
             <img src="images/html.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">html 5</h5>
+              <p class="card-text">HTML 5 é uma linguagem de marcação de Hipertexto (HyperText Markup Language) que trabalha com as bases do HTML clássico, mas possui tags adicionais que permitem criar sites mais modernos e mais compatíveis com as tecnologias digitais atuais.</p>
+              <div class="d-flex flex-row-reverse">
+                <a href="detalhe.html" class="btn btn-primary">mais informações</a>
+              </div>
+              
             </div>
           </div>
       </div>
@@ -116,9 +122,13 @@
         <div class="card" style="width: 18rem;">
             <img src="images/css2.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Css 3</h5>
+              <p class="card-text"> CSS3 é a última versão da Folha de Estilo em Cascata e veio para acrescentar de forma melhorada das versões anteriores.
+              A melhor novidade é em relação a flexibilidade na criação de layouts, trazendo mais autonomia para os webdesigners .</p>
+              <div class="d-flex flex-row-reverse">
+                <a href="detalhe.html" class="btn btn-primary">mais informações</a>
+              </div>
+              
             </div>
           </div>
       </div>
@@ -126,9 +136,14 @@
         <div class="card" style="width: 18rem;">
             <img src="images/github.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">github</h5>
+              <p class="card-text">Em suma, o GitHub é um serviço baseado em nuvem que hospeda um sistema de controle de versão (VCS) chamado Git. Ele permite que os desenvolvedores colaborem e façam mudanças em projetos compartilhados enquanto mantêm um registro detalhado do seu progresso.
+
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <a href="#" class="btn btn-primary">mais informações</a>
+              </div>
+              
             </div>
           </div>
       </div>
@@ -136,9 +151,12 @@
         <div class="card" style="width: 18rem;">
             <img src="images/java.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">javascript</h5>
+              <p class="card-text">JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática — mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc.</p>
+              <div class="d-flex flex-row-reverse">
+                <a href="#" class="btn btn-primary">mais informações</a>
+              </div>
+              
             </div>
           </div>
       </div>
@@ -148,7 +166,37 @@
 </section>
 <!-- fim dos cards -->
 
+<section class="container marketing">
+  <div class="container-fluid">
+    <div class="m-3 d-flex justify-content-center">
+  <h2>Depoimentos dos nossos alunos</h2>
+</div>
 
+  <div class="row">
+
+  <div class="col-lg-4">
+   <img class="rounded-circle" src="images/carol.jpg" alt="" width="140" height="140"> 
+    <h2 class="fw-normal" _msttexthash="92768" _msthash="29">luizianne</h2>
+    <p _msttexthash="9094696" _msthash="30">melhor escola de cursos do mercado. aprendi tudo que precisava </p>
+    <p><a class="btn btn-secondary" href="#" _msttexthash="223717" _msthash="31">Ver detalhes »</a></p>
+
+  </div>
+  <div class="col-lg-4">
+    <img class="rounded-circle" src="images/eliza.jpeg" alt="" width="140" height="140"> 
+    <h2 class="fw-normal" _msttexthash="92768" _msthash="29">eliza jardeline</h2>
+    <p _msttexthash="9094696" _msthash="30">consegui meu primeiro emprego na area . tudo com a ajuda e o desempenho dos professores da escola </p>
+    <p><a class="btn btn-secondary" href="#" _msttexthash="223717" _msthash="31">Ver detalhes »</a></p>
+    
+  </div>
+  <div class="col-lg-4">
+    <img class="rounded-circle" src="images/vitoria.jpg" alt="" width="140" height="140"> 
+    <h2 class="fw-normal" _msttexthash="92768" _msthash="29">vitoria </h2>
+    <p _msttexthash="9094696" _msthash="30">impossivel nao aprender com meu professor eduardo roseo o mehor do mundo recebaaaa.</p>
+    <p><a class="btn btn-secondary" href="#" _msttexthash="223717" _msthash="31">Ver detalhes »</a></p>
+  </div>
+</div>
+  
+</section>
 
 
    
@@ -157,6 +205,10 @@
 <footer class="mt-5">
 <div class="container d-flex justify-content-around">
     <p class="float-right"><a href="#">voltar ao topo</a></p>
+    <div class="btn-redes-sociais">
+      <a href="https://wa.me/message/O6BGSSBTBD4FP1" target="_blank"> <button><i class="bi bi-whatsapp"></i></button>contato</a>
+    </div>
+    
     <p> @criado por Isaias de Jesus 2024. <a href="#">privacidade</a> <a href="#"> termos</a></p>
 </div>
 </footer>
